@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import createStore from './store' // Import the createStore function
+import createStore from './store' 
 
 Vue.config.productionTip = false
 
-const store = createStore() // Call the function to create the store instance
+const store = createStore() 
 
 new Vue({
   router,
-  store, // Use the store instance
+  store,
   render: h => h(App)
 }).$mount('#app')

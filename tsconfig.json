@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "target": "es5",
     "downlevelIteration": true,
     "module": "esnext",
@@ -18,7 +19,8 @@
       "webpack-env",
       "jest",
       "vue", 
-      "vuex"
+      "vuex",
+      "node"
     ],
     "paths": {
       "@/*": [
@@ -38,7 +40,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-, "src/main.js", "src/store/index.js", "src/store/game/mutations.js", "src/store/game/state.js", "src/store/game/index.js", "src/store/game/getters.js", "src/store/game/actions.js", "src/store/game/getters.js", "src/store/game/actions.js"  ],
+  ],
   "exclude": [
     "node_modules"
   ]
